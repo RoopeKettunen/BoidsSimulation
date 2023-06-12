@@ -1,0 +1,72 @@
+Progress Report #1:
+week 7 (20.2 - 26.2):
+- Created initial class structure and basic dependencies
+- Finished Vector2 file based on initial plan, and completed a few simple methods in other classes
+week 8 (27.2 - 5.3)
+- Created basic GUI frame and sliders, and began experimenting with drawing Boids
+General Info:
+- I have spent about 5 hours total during this two-week period, and I perhaps could have spent a little more
+- The workload will likely increase when implementing more complex functions of the project
+- I am on schedule based on the initial plan
+- I hope to at least get the GUI redering/animations working within the next two weeks if not more
+- The vector class still needs to be tested, but everything else thus far functions
+
+Progress Report #2:
+week 9 (6.3 - 12.3)
+- Tested the vector class and fixed minor bugs
+- Created a basic animation clock that moves the now correctly drawn boids around
+week 10 (13.3 - 19.3)
+- Implemented basic slider functionality
+- Made it so that each boid has an initial facing
+- Adjusted for edge cases so that each boid, when bumping into an edge will teleport to the other side of screen
+- Could not manage to fix the shaking of two side boxes
+- Created Orient method, though it is still under progress
+- Still need to fix the GUI that has rendering, GridPane shaking, and edge teleporting problems
+General Info
+- The orient method visually works, but unit tests still need to be written and run
+- Trying to get the physics of the Boids to work was quite a problem, and could still use some fine-tuning
+- The workload was about 8 hours and was to be expected and I got a lot done last minute
+- I am ever so slightly ahead, but with the GUI to fix and a few likely bugs, I'll say I'm on track
+
+Progress Report #3:
+Week 11 (20.3 - 26.3)
+- Fixed GUI shaking and edge teleporting'
+Week 12 (27.3 - 2.4)
+- Completely debugged the orient method that turned out to not be working properly
+- aslo fixed how the weights can now actually affect boid behavior properly
+- Attempted to create unit tests but could not get import/sbt to work
+- have not worked enough at all, maybe like 5 hours
+- still pretty much on time as long as I can pick up the pace in the last two weeks
+- still need to remember to write the final report as well
+
+Progress Report #4:
+Week 13 (3.4 - 9.4)
+- Got the scalatest import to work
+- File reader that now initializes the number of boids along with the initial weights for the three rules
+- Unit tested a two Boid simulation and got tests to pass
+- Discovered and corrected bugs such as distance of Boids not being accounted for in separation
+- Also fixed position and velocity updating order (more detailed description in commits)
+- Commented code (rudimentally) and created a toggle button and slider to adjust viewRadius of each boid
+Week 14 (10.4 - 16.4)
+- Added Obstacle functionality to GUI, Simulation, and DataReader
+- Added additional error catching with text file reading
+- Fixed the Alignment calculations in the Boid class
+Week 15 (17.4 - 19.4)
+- Adjusted edge teleporting and boid edge vision to create proper edge wrapping
+- created fps counter in console
+- Added boid number adjustment buttons and a boid number slider
+- Added pause/resume button
+- Added obstacle adding functionality with mouse clicks, and an obstacle clearing button that removes all of the obstacles
+- Reformatted edge wrapping check in the orient method of the Boid class to slightly improve performance
+- Also added speed adjustment
+
+Interim Report Instructions:
+1-3 lines description of what classes have been added or updated and what functionality have been implemented in them (even if they were not ready yet).
+
+What methods / functionality have been tested so far in classes so that they work properly?
+
+What possibly difficult errors have occurred and have they been resolved?
+
+What has been the workload used during this time with some 5 hours accuracy?
+
+Whether you are ahead or lagging behind what you presented in the project plan (roughly at this phase).
